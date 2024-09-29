@@ -34,5 +34,10 @@ namespace LojaInstrumentos.Instrumentos
             Preco = preco;
             ProntaEntrega = true;
         }
+        public override string ToString()
+        {
+            return $"Instrumento: {Nome}\n\t Modelo: {Modelo}n\t Ano fabricação: {AnoFabricacao}";
+            //return base.ToString();
+        }
     }
 }
