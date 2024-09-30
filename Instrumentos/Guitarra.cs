@@ -4,10 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using LojaInstrumentos.Instrumentos;
 
 namespace LojaInstrumentos.Instrumentos
 {
-    class Guitarra : InstrumentoMusical
+  internal class Guitarra : InstrumentoMusical
     {
         public string TipoDoBraco { get; set; }
         public string TipoDoCorpo { get; set; }

@@ -1,9 +1,20 @@
-﻿using LojaInstrumentos.Instrumentos;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using LojaInstrumentos.Instrumentos;
 
-static void Main (string[] args)
+namespace LojaInstrumentos
 {
-    InstrumentoMusical violao = new("Violão Tagima", "Califórnnia", new DateTime(2019, 10, 10), 2500);
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Thykkano's Music");
+            InstrumentoMusical instru1 = new  ("violão", "tagima", new DateTime(2019, 10, 10), 3000);
 
-    Console.WriteLine(violao);
-    
+            Console.WriteLine(instru1);
+        }
+    }
 }

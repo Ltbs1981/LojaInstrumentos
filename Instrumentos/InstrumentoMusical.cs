@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using LojaInstrumentos;
 
 namespace LojaInstrumentos.Instrumentos
 {
@@ -36,8 +37,8 @@ namespace LojaInstrumentos.Instrumentos
         }
         public override string ToString()
         {
-            return $"Instrumento: {Nome}\n\t Modelo: {Modelo}n\t Ano fabricação: {AnoFabricacao}";
-            //return base.ToString();
+            return $"Instrumento: {Nome}\n\t Modelo: {Modelo}n\t Ano fabricação: {AnoFabricacao}\n\t Preço: {Preco}";
+//            return base.ToString();
         }
     }
 }
