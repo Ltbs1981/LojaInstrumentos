@@ -17,7 +17,7 @@ namespace LojaInstrumentos.Instrumentos
         { get { return _id; } }
         public string Nome { get; set; }
         public string Modelo { get; set; }
-        public DateTime AnoFabricacao { get; set; }
+        public string AnoFabricacao { get; set; }
         public double Preco { get; set; }
         public bool ProntaEntrega { get; set; }
 
@@ -27,7 +27,7 @@ namespace LojaInstrumentos.Instrumentos
             _id = id;
         }
 
-        public InstrumentoMusical(string nome, string modelo, DateTime anoFabricacao, double preco) : this ()
+        public InstrumentoMusical(string nome, string modelo, string anoFabricacao, double preco) : this()
         {
             Nome = nome;
             Modelo = modelo;
@@ -37,8 +37,8 @@ namespace LojaInstrumentos.Instrumentos
         }
         public override string ToString()
         {
-            return $"Instrumento: {Nome}\n\t Modelo: {Modelo}n\t Ano fabricação: {AnoFabricacao}\n\t Preço: {Preco}";
-//            return base.ToString();
+            return $"Instrumento: {Nome}\n\t Modelo: {Modelo}\n\t Ano fabricação: {AnoFabricacao}\n\t Preço: {Preco}";
+            //            return base.ToString();
         }
     }
 }
