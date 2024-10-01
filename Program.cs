@@ -57,13 +57,13 @@ namespace LojaInstrumentos
             switch (tipoInstrumento)
             {
                 case MenuTipoInstrumentos.InstrumentoSemGrupo:
-                    CadastroGuitarra();
+                    CadastroInstrumentoGenerico();
                     break;
                 case MenuTipoInstrumentos.Guitarra:
-                    CadastroTecladoOuPiano();
+                    CadastroGuitarra();
                     break;
                 case MenuTipoInstrumentos.TecladoOuPiano:
-                    CadastroInstrumentoGenerico();
+                    CadastroTecladoOuPiano();
                     break;
                 default:
                     Console.WriteLine("Opção inválida.");
