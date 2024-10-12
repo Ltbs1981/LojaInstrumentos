@@ -152,14 +152,15 @@ namespace LojaInstrumentos
 
             if (instrumento != null)
             {
-                Console.WriteLine("Informe o novo nome:");
-                instrumento.Nome = Console.ReadLine();
-                Console.WriteLine("Informe o novo modelo:");
-                instrumento.Modelo = Console.ReadLine();
-                Console.WriteLine("Informe o novo ano de fabricação:");
-                instrumento.AnoFabricacao = Console.ReadLine();
-                Console.WriteLine("Informe o novo preço:");
-                instrumento.Preco = double.Parse(Console.ReadLine());
+                CadastroMenu();
+                //Console.WriteLine("Informe o novo nome:");
+                //instrumento.Nome = Console.ReadLine();
+                //Console.WriteLine("Informe o novo modelo:");
+                //instrumento.Modelo = Console.ReadLine();
+                //Console.WriteLine("Informe o novo ano de fabricação:");
+                //instrumento.AnoFabricacao = Console.ReadLine();
+                //Console.WriteLine("Informe o novo preço:");
+                //instrumento.Preco = double.Parse(Console.ReadLine());
             }
             else
             {
